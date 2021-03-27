@@ -1,0 +1,8 @@
+Dockerfileから環境構築
+$ docker-compose up -d --build
+
+pythonの環境に入る
+$ docker-compose exec python3 bash   
+
+$ pip install python-dotenv
+$ pip install tweepy
